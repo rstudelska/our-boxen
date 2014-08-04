@@ -59,3 +59,17 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "tmux"
+github "alfred"
+github "virtualbox"
+github "vagrant"
+github "caffeine"
+github "propane"
+github "bash"
+github "wget"
+github "csshx"
+github "sublime_text_2"
+github "emacs_mac", "1.0.0", :repo => "christian-blades-cb/puppet-emacs_mac"
+github "freetds", "1.0.0", :repo => "christian-blades-cb/puppet-freetds"
+github "networkconnect", "1.0.0", :repo => "christian-blades-cb/puppet-networkconnect"
+github "gibo", "1.0.0", :repo => "christian-blades-cb/puppet-gibo"

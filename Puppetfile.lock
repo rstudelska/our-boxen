@@ -1,7 +1,27 @@
 GITHUBTARBALL
+  remote: boxen/puppet-alfred
+  specs:
+    alfred (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-bash
+  specs:
+    bash (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.6.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-caffeine
+  specs:
+    caffeine (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-csshx
+  specs:
+    csshx (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -64,6 +84,11 @@ GITHUBTARBALL
     pkgconfig (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-propane
+  specs:
+    propane (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
     repository (2.3.0)
@@ -74,14 +99,59 @@ GITHUBTARBALL
     ruby (8.1.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sublime_text_2
+  specs:
+    sublime_text_2 (1.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tmux
+  specs:
+    tmux (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (3.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.9)
+
+GITHUBTARBALL
+  remote: boxen/puppet-wget
+  specs:
+    wget (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.1)
+
+GITHUBTARBALL
+  remote: christian-blades-cb/puppet-emacs_mac
+  specs:
+    emacs_mac (1.0.0)
+
+GITHUBTARBALL
+  remote: christian-blades-cb/puppet-freetds
+  specs:
+    freetds (1.0.0)
+
+GITHUBTARBALL
+  remote: christian-blades-cb/puppet-gibo
+  specs:
+    gibo (1.0.0)
+
+GITHUBTARBALL
+  remote: christian-blades-cb/puppet-networkconnect
+  specs:
+    networkconnect (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -99,24 +169,38 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+  alfred (>= 0)
+  bash (>= 0)
   boxen (= 3.6.2)
+  caffeine (>= 0)
+  csshx (>= 0)
   dnsmasq (= 1.0.1)
+  emacs_mac (= 1.0.0)
   foreman (= 1.2.0)
+  freetds (= 1.0.0)
   gcc (= 2.1.1)
+  gibo (= 1.0.0)
   git (= 2.5.0)
   go (= 1.1.0)
   homebrew (= 1.9.4)
   hub (= 1.3.0)
   inifile (= 1.0.3)
   module_data (= 0.0.3)
+  networkconnect (= 1.0.0)
   nginx (= 1.4.3)
   nodejs (= 3.8.1)
   openssl (= 1.0.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
+  propane (>= 0)
   repository (= 2.3.0)
   ruby (= 8.1.2)
   stdlib (= 4.2.1)
+  sublime_text_2 (>= 0)
   sudo (= 1.0.0)
+  tmux (>= 0)
+  vagrant (>= 0)
+  virtualbox (>= 0)
+  wget (>= 0)
   xquartz (= 1.1.1)
 
